@@ -4,20 +4,20 @@
 
 ## Install Brownie
 
-- Install Python3
+- Install Python3:
 
 ```
 $ brew install python3
 ```
 
-- Install Ganache
+- Install Ganache:
 
 ```
 $ npm install ganache --global
 $ ganache
 ```
 
-- Install pipx and Brownie
+- Install pipx and Brownie:
 
 ```
 $ python3 -m pip install --user pipx
@@ -25,13 +25,13 @@ $ python3 -m pipx ensurepath
 $ pipx install eth-brownie
 ```
 
-- You could also install via pip:
+- Alternately, you could install via pip:
 
 ```
 pip install eth-brownie
 ```
 
-- Open a new terminal and run
+- Initiate your Brownie environment:
 
 ```
 $ brownie -- version
@@ -43,14 +43,14 @@ $ ls
 
 ## Compile a contract
 
-- Copy the file [StoreValue.sol](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/contracts/StoreValue.sol) to the new created contract folder and compile it
+- Copy the file [StoreValue.sol](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/contracts/StoreValue.sol) to the new created contract folder and compile it:
 
 ```
 brownie compile
 ```
 
 - Explore the json generated in the build folder.
-- Add your Rinkeby account to Brownie. Get your private key from Metamask.
+- Add your Rinkeby account to Brownie. Get your private key from Metamask:
 
 ```
 brownie accounts new my-rinkeby-account
@@ -88,7 +88,7 @@ https://mainnet.infura.io/v3/<PROJECT ID>
 
 - Add an environment variable for this project ID. For this, copy and update the [.env](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/.env) and [brownie-config.yaml](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/brownie-config.yaml) files.
 
-- Run the following command:
+- Deploy the contract in Rinkeby:
 
 ```
 brownie run scripts/deploy.py —network rinkeby
