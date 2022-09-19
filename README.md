@@ -80,7 +80,7 @@ brownie test -s
 
 ## Deploy to the testnet
 
-- Create a project at [Infura](https://blog.infura.io/). Then, create a project, go to settings and find your project ID from the networks endpoints.
+- Create a project at [Infura](https://blog.infura.io/). Then, go to settings and find your project ID from the networks endpoints.
 
 ```
 https://mainnet.infura.io/v3/<PROJECT ID>
