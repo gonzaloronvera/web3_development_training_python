@@ -51,10 +51,14 @@ brownie compile
 
 - Explore the json generated in the build folder.
 - Add your Rinkeby account to Brownie
-- Get your private key from Metamask and execute the following:
 
 ```
 brownie accounts new my-rinkeby-account
+```
+
+- Get your private key from Metamask and execute the following:
+
+```
 brownie accounts list
 ```
 
