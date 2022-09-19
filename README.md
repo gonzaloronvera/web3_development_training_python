@@ -44,7 +44,7 @@ $ ls
 
 ## Compile a contract
 
-- Copy the file [1_StoreValue.sol](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/contracts/StoreValue.sol) to the new created contract folder and compile it
+- Copy the file [StoreValue.sol](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/contracts/StoreValue.sol) to the new created contract folder and compile it
 
 ```
 brownie compile
@@ -61,7 +61,7 @@ brownie accounts list
 
 ## Deploy a contract in your local
 
-- Copy the file "scripts/deploy.py file into your scripts folder and run it:
+- Copy the file [scripts/deploy.py](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/scripts/deploy.py) file into your scripts folder and run it:
 
 ```
 brownie run scripts/deploy.py
@@ -69,7 +69,7 @@ brownie run scripts/deploy.py
 
 ## Test your contract
 
-- Copy the file test/test_store_value.py and run:
+- Copy the file [test/test_store_value.py](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/tests/test_store_value.py) and run:
 
 ```
 brownie test -s
@@ -83,7 +83,7 @@ brownie test -s
 https://mainnet.infura.io/v3/<PROJECT ID>
 ```
 
-- Add an environment variable for this project ID. For this, copy and update the .env and brownie-config.yaml files.
+- Add an environment variable for this project ID. For this, copy and update the [.env](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/.env) and [brownie-config.yaml](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/brownie-config.yaml) files.
 
 - Run the following command:
 
