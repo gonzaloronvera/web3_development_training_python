@@ -44,7 +44,7 @@ $ ls
 
 ## Compile a contract
 
-- Copy the file 1_StoreValue.sol to the new created contract folder and compile it
+- Copy the file [1_StoreValue.sol](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/contracts/StoreValue.sol) to the new created contract folder and compile it
 
 ```
 brownie compile
