@@ -1,7 +1,6 @@
-#Web3 Development training - Python
+# Web3 Development training - Python
  
-
-## Create a new folder for your project and open VC code on that folder.
+- Create a new folder for your project and open VC code on that folder.
 
 ## Install Brownie
 
