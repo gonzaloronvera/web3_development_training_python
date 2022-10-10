@@ -50,10 +50,10 @@ brownie compile
 ```
 
 - Explore the json generated in the build folder.
-- Add your Rinkeby account to Brownie. Get your private key from Metamask:
+- Add your Goerli account to Brownie. Get your private key from Metamask:
 
 ```
-brownie accounts new my-rinkeby-account
+brownie accounts new my-goerli-account
 ```
 
 - List your available accounts:
@@ -88,10 +88,10 @@ https://mainnet.infura.io/v3/<PROJECT ID>
 
 - Add an environment variable for this project ID. For this, copy and update the [.env](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/.env) and [brownie-config.yaml](https://github.com/gonzaloronvera/web3_development_training_python/blob/main/brownie-config.yaml) files.
 
-- Deploy the contract in Rinkeby:
+- Deploy the contract in Goerli:
 
 ```
-brownie run scripts/deploy.py —network rinkeby
+brownie run scripts/deploy.py —network goerli
 ```
 
 - Observe the changes in your wallet every time you execute it.
