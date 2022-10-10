@@ -91,7 +91,7 @@ https://mainnet.infura.io/v3/<PROJECT ID>
 - Deploy the contract in Goerli:
 
 ```
-brownie run scripts/deploy.py —network goerli
+brownie run scripts/deploy.py --network goerli
 ```
 
 - Observe the changes in your wallet every time you execute it.
